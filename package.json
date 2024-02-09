@@ -10,7 +10,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "deleted:docs": "del docs",
-    "copy:dist": "copyfiles dist/bases/browser/* ./docs"
+    "copy:dist": "copyfiles dist/bases/browser/* ./docs -f"
   },
   "private": true,
   "dependencies": {
